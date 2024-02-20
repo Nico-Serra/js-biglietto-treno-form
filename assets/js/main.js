@@ -36,13 +36,4 @@ document.querySelector('button').addEventListener('click', function () {
     }
 });
 
-
-
-
-
-
-
-
-    
-    
 //- Stampare il prezzo del biglietto in forma umana

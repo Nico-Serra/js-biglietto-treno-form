@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ticket Train Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
-    <div id="main">
-        <input type="text" name="km" id="km">
-        <input type="text" name="age" id="age">
-        <button class="btn">Genera</button>
-    </div>
+
+    <main id="site_main">
+
+        <h2>Calcola il prezzo del tuo biglietto</h2>
+
+        <div class="container">
+            <div class="info d-flex">
+                <h4>Nome e Cognome</h4>
+                <h4>Quanti km percorrerai</h4>
+                <h4>Inserisci la tua età</h4>
+            </div>
+
+            <form action="" class="d-flex">
+                <input type="text">
+
+                <input type="number" name="km" id="km" min="1" max="99999">
+
+
+                <input type="number" name="age" id="age" min="10" max="100">
+            </form>
+            <div class="center">
+                <button class="btn">Genera</button>
+                <button>Annulla</button>
+            </div>
+
+        </div>
+
+
+
+    </main>
     <!-- /#main -->
 
 
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>

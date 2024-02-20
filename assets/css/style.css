@@ -6,9 +6,55 @@
 
 body{
     background-color: seagreen;
+    font-family: "Roboto", sans-serif;
 }
 
 .container{
     width: 80%;
     max-width: 1440px;
+    margin: auto;
+    background-color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+
+.info{
+    padding: 2rem;
+    color: seagreen;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.center{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+input{
+    flex-basis: 200px;
+    outline: none;
+}
+
+button{
+    background-color: white;
+    color: seagreen;
+    padding: 0.5rem;
+    border: 1px solid seagreen;
+    border-radius: 0.5rem;
+    margin: 0.25rem;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: seagreen;
+    color: white;
 }
