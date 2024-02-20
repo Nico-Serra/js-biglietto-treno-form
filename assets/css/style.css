@@ -1,50 +1,51 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: seagreen;
     font-family: "Roboto", sans-serif;
 }
 
-.container{
+.container {
     width: 80%;
     max-width: 1440px;
     margin: auto;
     background-color: white;
+
 }
 
-h2{
+h2 {
     text-align: center;
     color: white;
     padding: 1rem 0;
     text-transform: uppercase;
 }
 
-.info{
+.info {
     padding: 2rem;
     color: seagreen;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.center{
+.center {
     text-align: center;
     padding: 2rem 0;
 }
 
-input{
+input {
     flex-basis: 200px;
     outline: none;
 }
 
-button{
+button {
     background-color: white;
     color: seagreen;
     padding: 0.5rem;
@@ -54,7 +55,39 @@ button{
     font-weight: bold;
 }
 
-button:hover{
+button:hover {
     background-color: seagreen;
     color: white;
+}
+
+.ticket {
+    width: 80%;
+    padding: 2rem 0;
+    max-width: 1440px;
+    margin: auto;
+    background-image: url(https://img.freepik.com/free-photo/black-prism-concept-ai-generated_268835-7011.jpg?w=740&t=st=1708445637~exp=1708446237~hmac=f0f090c37c8ca15a33c866c352575e6736f71309cf5d65df84f1dcb20c7620d5);
+    color: white;
+
+    & h3 {
+        padding-top: 1rem 0;
+    }
+}
+
+.info_ticket {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 1rem 0;
+
+    & div {
+        text-align: center;
+
+        > h3{
+            padding-bottom: 0.5rem;
+        }
+    }
 }
